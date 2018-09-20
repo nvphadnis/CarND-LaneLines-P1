@@ -2,8 +2,8 @@
 Self-Driving Car Engineer Nanodegree Program: Term 1 Project 1
 
 I am submitting two notebooks:
-1) [**Project1_Image.ipynb:**](https://github.com/nvphadnis/CarND-Term1-P1-LaneLines/blob/master/Project1_Image.ipynb) This notebook contains my pipeline in separate cells which was convenient for development and troubleshooting. I will reference cells from here below.
-2) [**Project1_video.ipynb:**](https://github.com/nvphadnis/CarND-Term1-P1-LaneLines/blob/master/Project1_video.ipynb) This notebook contains my final *process_image* function pipeline and subsequent video processing.
+1) [Project1_Image.ipynb:](https://github.com/nvphadnis/CarND-Term1-P1-LaneLines/blob/master/Project1_Image.ipynb) This notebook contains my pipeline in separate cells which was convenient for development and troubleshooting. I will reference cells from here below.
+2) [Project1_video.ipynb:](https://github.com/nvphadnis/CarND-Term1-P1-LaneLines/blob/master/Project1_video.ipynb) This notebook contains my final *process_image* function pipeline and subsequent video processing.
 
 My *process_image* function pipeline has the following steps:
 1) **Grayscale the image:** Here I grayscaled the image for ease of identifying lane lines later during Canny edge detection. I used cv2.COLOR_RGB2GRAY because importing images using matplotlib results in an RGB image (Project1_Image.ipynb cell 3).
